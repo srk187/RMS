@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "221517451201",
+    "firebase_url": "https://residential-management-396f1-default-rtdb.firebaseio.com",
+    "project_id": "residential-management-396f1",
+    "storage_bucket": "residential-management-396f1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:221517451201:android:013ff16cb7f09934efe940",
+        "android_client_info": {
+          "package_name": "com.example1.residentialmanagement"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "221517451201-n7hj7v6rfd45omr24a0vn8bmqediqbjb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example1.residentialmanagement",
+            "certificate_hash": "94f295f7af66eebfe82fef7dda3aa5589189a4bb"
+          }
+        },
+        {
+          "client_id": "221517451201-7ird680hi40oofdphsmgo7cej6mpqgcj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUMKL5_jVCW5I8ZCYpKxzbaDlMra5vjls"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "221517451201-7ird680hi40oofdphsmgo7cej6mpqgcj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

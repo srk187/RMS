@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".select_homedetail"
+    android:background="@color/sky">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/cw"
+                style="@style/Widget.Material3.CardView.Elevated"
+                android:layout_width="match_parent"
+                android:layout_height="450sp"
+                android:layout_centerInParent="true"
+                android:layout_marginStart="30sp"
+                android:layout_marginTop="50sp"
+                android:background="@color/white"
+                app:cardCornerRadius="15sp">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/select_home_detail_edittext_houseno_layout"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:hint="@string/hint_houseno"
+                    android:padding="15sp">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/select_home_detail_edittext_houseno"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/select_home_detail_spinner_htype_layout"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="90sp"
+                    android:padding="15sp">
+
+                    <androidx.appcompat.widget.AppCompatSpinner
+                        android:id="@+id/select_home_detail_spinner_htype"
+                        android:layout_width="match_parent"
+                        android:layout_height="60sp"
+                        android:entries="@array/house_type" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/select_home_detail_edittext_memberno_layout"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="175sp"
+                    android:hint="@string/hint_memberno"
+                    android:padding="15sp">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/select_home_detail_edittext_memberno"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <Button
+                android:id="@+id/select_home_detail_button_create"
+                android:layout_width="103sp"
+                android:layout_height="55sp"
+                android:backgroundTint="#003253"
+                android:typeface="serif"
+                android:text="@string/btn_create"
+                android:layout_alignBottom="@id/cw"
+                android:layout_marginBottom="30sp"
+                android:layout_centerHorizontal="true"/>
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

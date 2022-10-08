@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".dashboard_CYA"
+    android:background="@color/sky">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/row1">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/rlMtn"
+                    android:padding="10sp"
+                    android:layout_alignParentStart="true">
+
+                    <ImageButton
+                        android:id="@+id/dashboard_cya_imgbtn_mtn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/sky"
+                        android:padding="10sp"
+                        android:src="@drawable/ic_baseline_account_balance_24" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/dashboard_cya_imgbtn_mtn"
+                        android:layout_centerHorizontal="true"
+                        android:text="Maintenance"
+                        android:textSize="15sp"
+                        android:textStyle="bold"
+                        android:typeface="monospace" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rlSmr"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:padding="10sp">
+
+                    <ImageButton
+                        android:id="@+id/btnSmr"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/sky"
+                        android:padding="10sp"
+                        android:src="@drawable/ic_baseline_event_note_24" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/btnSmr"
+                        android:layout_centerHorizontal="true"
+                        android:text="Summary"
+                        android:textSize="15sp"
+                        android:textStyle="bold"
+                        android:typeface="monospace" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rlExn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:padding="10sp">
+
+                    <ImageButton
+                        android:id="@+id/btnExn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/sky"
+                        android:padding="10sp"
+                        android:src="@drawable/ic_baseline_attach_money_24" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/btnExn"
+                        android:layout_centerHorizontal="true"
+                        android:text="Expenses"
+                        android:textSize="15sp"
+                        android:textStyle="bold"
+                        android:typeface="monospace" />
+
+                </RelativeLayout>
+
+            </RelativeLayout>
+            <!--    @2nd Row-->
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/row2"
+                android:layout_below="@+id/row1">
+
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/rlRules"
+                    android:padding="10sp"
+                    android:layout_alignParentStart="true">
+
+                    <ImageButton
+                        android:id="@+id/btnRules"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/sky"
+                        android:padding="10sp"
+                        android:src="@drawable/ic_baseline_rule_24" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/btnRules"
+                        android:layout_centerHorizontal="true"
+                        android:text="Rules"
+                        android:textSize="15sp"
+                        android:textStyle="bold"
+                        android:typeface="monospace" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/rlPoll"
+                    android:padding="10sp"
+                    android:layout_centerHorizontal="true">
+
+                    <ImageButton
+                        android:id="@+id/btnPoll"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/sky"
+                        android:padding="10sp"
+                        android:src="@drawable/ic_baseline_poll_24" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/btnPoll"
+                        android:text="Decisions"
+                        android:layout_centerHorizontal="true"
+                        android:textSize="15sp"
+                        android:typeface="monospace"
+                        android:textStyle="bold"
+                        />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/rlAnc"
+                    android:layout_alignParentEnd="true"
+                    android:padding="10sp">
+
+                    <ImageButton
+                        android:id="@+id/btnAnc"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/sky"
+                        android:padding="10sp"
+                        android:src="@drawable/ic_baseline_announcement_24" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/btnAnc"
+                        android:layout_centerHorizontal="true"
+                        android:text="Announce"
+                        android:textSize="15sp"
+                        android:textStyle="bold"
+                        android:typeface="monospace" />
+
+                </RelativeLayout>
+
+
+            </RelativeLayout>
+
+            <!--    @3rd Row-->
+
+            <RelativeLayout
+                android:id="@+id/row3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/row2">
+
+                <RelativeLayout
+                    android:id="@+id/rlMember"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:padding="10sp">
+
+                    <ImageButton
+                        android:id="@+id/btnMember"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/sky"
+                        android:padding="10sp"
+                        android:src="@drawable/ic_baseline_people_alt_24" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/btnMember"
+                        android:layout_centerHorizontal="true"
+                        android:text="Members"
+                        android:textSize="15sp"
+                        android:textStyle="bold"
+                        android:typeface="monospace" />
+                </RelativeLayout>
+
+
+            </RelativeLayout>
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

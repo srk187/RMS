@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Create_Apartment"
+    android:background="@color/sky">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/cw"
+                style="@style/Widget.Material3.CardView.Elevated"
+                android:layout_width="match_parent"
+                android:layout_height="550sp"
+                android:layout_marginVertical="100sp"
+                android:layout_marginHorizontal="20sp"
+                android:layout_marginTop="50sp"
+                android:background="@color/white"
+                app:cardCornerRadius="15sp">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/create_apartment_edt_aptname_layout"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:hint="@string/hint_aptname"
+                    android:padding="15sp">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/create_apartment_edt_aptname"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/create_apartment_edt_state_layout"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="80sp"
+                    android:hint="@string/hint_state"
+                    android:padding="15sp">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/create_apartment_edt_state"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/create_apartment_edt_city_layout"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="155sp"
+                    android:hint="@string/hint_city"
+                    android:padding="15sp">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/create_apartment_edt_city"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/create_apartment_edt_address_layout"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="230sp"
+                    android:hint="@string/hint_address"
+                    android:padding="15sp">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/create_apartment_edt_address"
+                        android:layout_width="match_parent"
+                        android:layout_height="200sp" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <Button
+                android:id="@+id/create_apartment_btn_next"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/cw"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="480sp"
+                android:layout_marginBottom="20sp"
+                android:backgroundTint="@color/back_blue"
+                android:text="@string/btn_next" />
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

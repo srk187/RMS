@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">Residential Management</string>
+    <string-array name="house_type">
+        <item>Owner</item>
+        <item>Rent</item>
+        <item>Close</item>
+    </string-array>
+
+    <!--Main Activity-->
+    <string name="hint_login_id">Mobile No.</string>
+    <string name="text_unerror">Invalid Mobile No</string>
+    <string name="hint_password">Password</string>
+    <string name="text_passerror">Invalid Password</string>
+    <string name="text_askforacc">Don\\t have an account?</string>
+    <string name="text_register">Register</string>
+    <string name="btn_login">Login</string>
+
+    <!-- connect-->
+    <string name="btn_CYA">Create Your Apartment</string>
+    <string name="btn_JA">Join Apartment</string>
+
+    <!--create apartment-->
+    <string name="hint_aptname">Apartment name</string>
+    <string name="hint_state">State</string>
+    <string name="hint_city">City</string>
+    <string name="hint_address">Address</string>
+    <string name="btn_next">Next</string>
+
+    <!--select home detail-->
+    <string name="hint_houseno">House no.</string>
+    <string name="hint_htype">Owner</string>
+    <string name="hint_memberno">No. of Members</string>
+    <string name="btn_create">Create</string>
+
+    <!--join apartment-->
+    <string name="btn_join">Join</string>
+
+    <!--    -->
+    <string name="hint_mobileno">Mobile No</string>
+    <string name="btn_sendotp">Send OTP</string>
+    <string name="hint_otp">Enter OTP here</string>
+    <string name="hint_firstname">First Name</string>
+    <string name="hint_lastname">Last Name</string>
+    <string name="hint_confirmpassword">Confirm Password</string>
+
+    <!--    -->
+    <string name="text_addbill">Add Maintenance Bill</string>
+    <string name="text_month">Select Month</string>
+    <string name="text_year">Select Year</string>
+    <string name="hint_amount">Enter Amount</string>
+    <string name="text_title">Title</string>
+    <string-array name="month">
+        <item>Jan.</item>
+        <item>Feb.</item>
+        <item>Mar.</item>
+        <item>Apr.</item>
+        <item>May.</item>
+        <item>Jun.</item>
+        <item>July.</item>
+        <item>Aug.</item>
+        <item>Sep.</item>
+        <item>Oct.</item>
+        <item>Nov.</item>
+        <item>Dec.</item>
+    </string-array>
+    <string name="text_apartment_name">Apartment Name</string>
+    <string name="text_total_balance">Total Balance:</string>
+    <string name="text_total_balance_db">Fetch From Db</string>
+    <string name="text_total_houses">Total Houses:</string>
+    <string name="text_total_houses_db">Fetch From Db</string>
+    <string name="text_total_members">Total Members:</string>
+    <string name="text_total_members_db">Fetch From Db</string>
+    <string name="txt_year">2022</string>
+    <string name="text_addexpense">Add Expenses</string>
+    <string name="hint_title">Title</string>
+    <string name="text_rule">Add Rule</string>
+    <string name="hint_rule">Description</string>
+    <string name="btn_rule">Add</string>
+</resources>

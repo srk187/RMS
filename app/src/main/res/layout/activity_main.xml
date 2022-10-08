@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/sky">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/logindetail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="200sp">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/Activity_main_edittext_username_layout"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="100sp"
+                android:hint="@string/hint_login_id">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/Activity_main_edittext_username"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="phone" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <TextView
+                android:id="@+id/Activity_main_textview_usernameError"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/Activity_main_edittext_username_layout"
+                android:layout_alignStart="@id/Activity_main_edittext_username_layout"
+                android:padding="3sp"
+                android:text="@string/text_unerror"
+                android:textColor="#D32F2F"
+                android:typeface="sans"
+                android:visibility="invisible" />
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/Activity_main_edittext_password_layout"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/Activity_main_textview_usernameError"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="100sp"
+                android:hint="@string/hint_password"
+
+                >
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/Activity_main_edittext_password"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPassword" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <TextView
+                android:id="@+id/Activity_main_textview_passwordError"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Activity_main_edittext_password_layout"
+                android:layout_alignStart="@+id/Activity_main_edittext_password_layout"
+                android:padding="3sp"
+                android:text="@string/hint_password"
+                android:textColor="#D32F2F"
+                android:typeface="sans"
+                android:visibility="invisible" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/Activity_main_textview_passwordError"
+                android:layout_alignStart="@id/Activity_main_edittext_password_layout"
+                android:padding="10sp"
+                android:text="@string/text_askforacc"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/Activity_main_textview_register"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/Activity_main_textview_passwordError"
+                android:layout_alignEnd="@id/Activity_main_edittext_password_layout"
+                android:layout_centerHorizontal="true"
+                android:padding="10sp"
+                android:text="@string/text_register"
+                android:textColor="#ED143B"
+                android:textStyle="bold" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/Activity_main_button_login"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/Activity_main_textview_register"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30sp"
+                android:backgroundTint="@color/back_blue"
+                android:padding="10sp"
+                android:text="@string/btn_login"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:typeface="serif" />
+        </RelativeLayout>
+
+    </ScrollView>
+</RelativeLayout>

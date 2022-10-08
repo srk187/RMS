@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example1.residentialmanagement">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ResidentialManagement"
+        tools:targetApi="31">
+        <activity
+            android:name=".Add_Announcement"
+            android:exported="false"
+            android:parentActivityName=".Announcement"/>
+        <activity
+            android:name=".Announcement"
+            android:exported="false"
+            android:parentActivityName=".dashboard_CYA"/>
+        <activity
+            android:name=".Add_Rule"
+            android:exported="false"
+            android:parentActivityName=".Rules" />
+        <activity
+            android:name=".Rules"
+            android:exported="false"
+            android:parentActivityName=".dashboard_CYA" />
+        <activity
+            android:name=".AddExpenseBill"
+            android:exported="false"
+            android:parentActivityName=".Expenses" />
+        <activity
+            android:name=".Expenses"
+            android:exported="false"
+            android:parentActivityName=".dashboard_CYA" />
+        <activity
+            android:name=".Summary"
+            android:exported="false"
+            android:parentActivityName=".dashboard_CYA" />
+        <activity
+            android:name=".DecisionPoll"
+            android:exported="false"
+            android:parentActivityName=".dashboard_CYA" />
+        <activity
+            android:name=".add_mtn_bill"
+            android:exported="false"
+            android:parentActivityName=".maintenance" />
+        <activity
+            android:name=".maintenance"
+            android:exported="false"
+            android:parentActivityName=".dashboard_CYA" />
+        <activity
+            android:name=".dashboard_JA"
+            android:exported="false" />
+        <activity
+            android:name=".dashboard_CYA"
+            android:exported="false" />
+        <activity
+            android:name=".Join_Apartment"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".select_homedetail"
+            android:exported="false"
+            android:parentActivityName=".Create_Apartment" />
+        <activity
+            android:name=".Create_Apartment"
+            android:exported="false"
+            android:parentActivityName=".connect" />
+        <activity
+            android:name=".connect"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".registerDetail"
+            android:exported="false"
+            android:parentActivityName=".otp_verify" />
+        <activity
+            android:name=".otp_verify"
+            android:exported="false"
+            android:parentActivityName=".registerNumber" />
+        <activity
+            android:name=".registerNumber"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

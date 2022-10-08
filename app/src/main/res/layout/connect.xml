@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".connect"
+    android:background="@color/sky">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/cw"
+                style="@style/Widget.Material3.CardView.Elevated"
+                android:layout_width="match_parent"
+                android:layout_height="350sp"
+                android:layout_centerInParent="true"
+                android:layout_marginStart="30sp"
+                android:layout_marginTop="150sp"
+                android:background="@color/white"
+                app:cardCornerRadius="15sp" />
+
+            <Button
+                android:id="@+id/connect_btn_CYA"
+                android:layout_width="200sp"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/cw"
+                android:layout_centerHorizontal="true"
+                android:backgroundTint="@color/back_blue"
+                android:text="@string/btn_CYA"
+                android:textSize="15sp" />
+
+
+
+            <Button
+                android:id="@+id/connect_btn_JA"
+                android:layout_width="200sp"
+                android:layout_height="wrap_content"
+                android:text="@string/btn_JA"
+                android:textSize="15sp"
+                android:backgroundTint="@color/back_blue"
+                android:layout_below="@id/connect_btn_CYA"
+                android:layout_marginTop="100sp"
+                android:layout_centerHorizontal="true"
+                />
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>
