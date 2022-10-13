@@ -37,6 +37,38 @@ public class MainActivity extends AppCompatActivity {
         passError =  findViewById(R.id.Activity_main_textview_passwordError);
 
 
+//        DatabaseReference reference = FirebaseDatabase.getInstance().getReference().child("Users");
+//
+//        reference.addValueEventListener(new ValueEventListener() {
+//            @Override
+//            public void onDataChange(@NonNull DataSnapshot snapshot) {
+//                for(DataSnapshot snapshot1 : snapshot.getChildren()){
+//                    String key = snapshot1.getKey();
+//                    reference.child(key).child("CA").addValueEventListener(new ValueEventListener() {
+//                        @Override
+//                        public void onDataChange(@NonNull DataSnapshot snapshot2) {
+//                            for(DataSnapshot snapshot3 : snapshot2.getChildren()){
+//                                String key2 = snapshot3.getValue().toString();
+//                                System.out.println(key2);
+//
+//
+//                            }
+//                        }
+//
+//                        @Override
+//                        public void onCancelled(@NonNull DatabaseError error) {
+//
+//                        }
+//                    });
+//                }
+//            }
+//
+//            @Override
+//            public void onCancelled(@NonNull DatabaseError error) {
+//
+//            }
+//        });
+
         getSupportActionBar().setTitle("Login");
 
         register.setOnClickListener(new View.OnClickListener() {

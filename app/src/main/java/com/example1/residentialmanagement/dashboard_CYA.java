@@ -31,7 +31,7 @@ public class dashboard_CYA extends AppCompatActivity {
         maintenance.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(dashboard_CYA.this, maintenance.class));
+                startActivity(new Intent(dashboard_CYA.this, Maintenance.class));
 
             }
         });

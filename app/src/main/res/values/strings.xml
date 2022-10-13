@@ -76,4 +76,8 @@
     <string name="text_rule">Add Rule</string>
     <string name="hint_rule">Description</string>
     <string name="btn_rule">Add</string>
+    <string name="hint_enteryear">Enter Year</string>
+    <string name="text_expenses">Add Expense Bill</string>
+    <string name="btn_paidmaintenance">Paid Maintenance</string>
+    <string name="btn_collectedmaintenance">Collected Maintenance</string>
 </resources>

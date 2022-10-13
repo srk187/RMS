@@ -6,6 +6,7 @@
         <entry key="..\:/ResidentialManagement (1)/ResidentialManagement/app/src/main/res/drawable/progress_track.xml" value="0.1585" />
         <entry key="..\:/ResidentialManagement (1)/ResidentialManagement/app/src/main/res/layout/activity_add_announcement.xml" value="0.2604166666666667" />
         <entry key="..\:/ResidentialManagement (1)/ResidentialManagement/app/src/main/res/layout/activity_add_expense_bill.xml" value="0.27447916666666666" />
+        <entry key="..\:/ResidentialManagement (1)/ResidentialManagement/app/src/main/res/layout/activity_add_maintenance_bill.xml" value="0.2359375" />
         <entry key="..\:/ResidentialManagement (1)/ResidentialManagement/app/src/main/res/layout/activity_add_mtn_bill.xml" value="0.27447916666666666" />
         <entry key="..\:/ResidentialManagement (1)/ResidentialManagement/app/src/main/res/layout/activity_add_rule.xml" value="0.2604166666666667" />
         <entry key="..\:/ResidentialManagement (1)/ResidentialManagement/app/src/main/res/layout/activity_announcement.xml" value="0.27447916666666666" />
@@ -13,9 +14,14 @@
         <entry key="..\:/ResidentialManagement (1)/ResidentialManagement/app/src/main/res/layout/activity_dashboard_ja.xml" value="0.27447916666666666" />
         <entry key="..\:/ResidentialManagement (1)/ResidentialManagement/app/src/main/res/layout/activity_decision_poll.xml" value="0.27447916666666666" />
         <entry key="..\:/ResidentialManagement (1)/ResidentialManagement/app/src/main/res/layout/activity_expenses.xml" value="0.2604166666666667" />
+        <entry key="..\:/ResidentialManagement (1)/ResidentialManagement/app/src/main/res/layout/activity_main.xml" value="0.10989583333333333" />
         <entry key="..\:/ResidentialManagement (1)/ResidentialManagement/app/src/main/res/layout/activity_maintenance.xml" value="0.27447916666666666" />
+        <entry key="..\:/ResidentialManagement (1)/ResidentialManagement/app/src/main/res/layout/activity_maintenance2.xml" value="0.25" />
+        <entry key="..\:/ResidentialManagement (1)/ResidentialManagement/app/src/main/res/layout/activity_maintenance_detail.xml" value="0.25" />
         <entry key="..\:/ResidentialManagement (1)/ResidentialManagement/app/src/main/res/layout/activity_rules.xml" value="0.27447916666666666" />
+        <entry key="..\:/ResidentialManagement (1)/ResidentialManagement/app/src/main/res/layout/expensecard.xml" value="0.24895833333333334" />
         <entry key="..\:/ResidentialManagement (1)/ResidentialManagement/app/src/main/res/layout/maintenancecard.xml" value="0.27447916666666666" />
+        <entry key="..\:/ResidentialManagement (1)/ResidentialManagement/app/src/main/res/layout/paidcard.xml" value="0.20521590423257802" />
       </map>
     </option>
   </component>

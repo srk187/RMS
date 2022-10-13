@@ -24,16 +24,16 @@
 
 
         <SeekBar
+            android:id="@+id/seek_bar1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/seek_bar1"
+            android:layout_marginTop="16dp"
             android:max="100"
             android:progress="25"
-            android:layout_marginTop="16dp"
-            android:thumb="@android:color/transparent"
             android:progressDrawable="@drawable/progress_track"
-            app:layout_constraintTop_toBottomOf="@id/tv_question"
-            app:layout_constraintStart_toStartOf="parent"/>
+            android:thumb="@android:color/transparent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_question" />
 
         <TextView
             android:layout_width="0dp"
@@ -55,22 +55,25 @@
             android:text="25%"
             android:paddingStart="0dp"
             android:paddingEnd="32dp"
+            android:layout_below="@id/seek_bar2"
             android:layout_marginTop="16dp"
             android:gravity="center_vertical"
             app:layout_constraintTop_toBottomOf="@id/tv_question"
             app:layout_constraintEnd_toEndOf="parent"/>
 
         <SeekBar
+            android:id="@+id/seek_bar2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/seek_bar2"
+            android:layout_above="@+id/seek_bar1"
+            android:layout_marginTop="-24dp"
+            android:layout_marginBottom="-32dp"
             android:max="100"
             android:progress="25"
-            android:layout_marginTop="8dp"
-            android:thumb="@android:color/transparent"
             android:progressDrawable="@drawable/progress_track"
-            app:layout_constraintTop_toBottomOf="@id/seek_bar1"
-            app:layout_constraintStart_toStartOf="parent"/>
+            android:thumb="@android:color/transparent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/seek_bar1" />
 
         <TextView
             android:layout_width="0dp"
@@ -86,16 +89,16 @@
             app:layout_constraintEnd_toStartOf="@id/tv_percent2"/>
 
         <TextView
+            android:id="@+id/tv_percent2"
             android:layout_width="wrap_content"
             android:layout_height="40dp"
-            android:id="@+id/tv_percent2"
-            android:text="25%"
-            android:paddingStart="0dp"
-            android:paddingEnd="32dp"
             android:layout_marginTop="8dp"
             android:gravity="center_vertical"
-            app:layout_constraintTop_toBottomOf="@id/seek_bar1"
-            app:layout_constraintEnd_toEndOf="parent"/>
+            android:paddingStart="0dp"
+            android:paddingEnd="32dp"
+            android:text="25%"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/seek_bar1" />
 
     </RelativeLayout>
 

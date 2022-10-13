@@ -50,8 +50,6 @@ public class Join_Apartment extends AppCompatActivity {
                     @Override
                     public void onDataChange(@NonNull DataSnapshot snapshot2) {
                         String key = snapshot2.getKey();
-                        fname = snapshot2.child("fname").getValue().toString();
-                        lname = snapshot2.child("lname").getValue().toString();
 
                         databaseReference.addListenerForSingleValueEvent(new ValueEventListener() {
                             @Override
